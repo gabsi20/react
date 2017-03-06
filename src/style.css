@@ -1,5 +1,7 @@
 html, body, *{
 	box-sizing: border-box;
+	font-family: 'Arial', sans-serif;
+	color: #fff;
 }
 
 body{
@@ -25,6 +27,7 @@ input{
 	background-color: #fff;
 	border: 0;
 	margin-bottom: 3px;
+	color: #111;
 }
 
 input.person__name{

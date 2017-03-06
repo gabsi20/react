@@ -1,0 +1,79 @@
+html, body, *{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../public/background.jpg);
+}
+#root{
+	position: absolute;
+	left: 50%;
+	top: 40px;
+	transform: translateX(-50%);
+	padding: 40px;
+	max-width: 600px;
+	background-color: rgba(127,115,108,0.7);
+}
+
+label{
+	display: inline-block;
+}
+
+input{
+	width: 85%;
+	padding: 10px;
+	background-color: #fff;
+	border: 0;
+	margin-bottom: 3px;
+}
+
+input.person__name{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 85%;
+	float: left;
+}
+
+button.person__delete{
+	padding: 3px;
+	background-color: rgba(127,90,70,0.7);
+	color: #fff;
+	border-radius: 0px;
+	border: 0px;
+	float: right;
+	cursor: pointer;
+	transition: 200ms;
+}
+
+ button.person__add{
+ 	background-color: rgba(255,230,217,0.7);
+ 	border-radius: 0px;
+ 	border: 0px;
+ 	float: right;
+ 	height: 35px;
+ 	width: 35px;
+ 	line-height: 35px;
+ 	vertical-align: middle;
+ 	text-align: center;
+ 	cursor: pointer;
+ }
+
+button.person_delete:hover{
+	background-color: #f00;
+}
+
+.person{
+	color: blue;
+	background-color: light-blue;
+	margin-bottom: 3px;
+}
+
+.person:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.prompt{
+	margin-bottom: 25px;
+}
